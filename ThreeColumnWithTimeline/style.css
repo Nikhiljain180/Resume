@@ -1,0 +1,115 @@
+html{
+    font-family: Calibri;
+    letter-spacing: 3px;
+}
+
+.round-image{
+    border : solid 0px;
+    border-radius: 50%;
+}
+
+#person{
+    margin: 20px 0 20px 0;
+}
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+
+#name{
+    letter-spacing: 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#designation{
+    letter-spacing: 3px;
+}
+
+.header{
+    background-color: rgb(51, 49, 66);
+    color: gold;
+    padding: 0 10% 0 10%;
+}
+
+#call-me-section{
+    padding-left: 50px;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+#call-me{
+    letter-spacing: 6px;
+    font-size: 24px;
+}
+
+.top-heading{
+    padding-top: 30px;
+    width: 100%;
+    font-weight: bold;
+    border: solid;
+    border-width: 0 0 1px 0; 
+}
+
+#rightmost{
+    background-color: #DDD;
+}
+
+.card{
+    display: inline-block;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+.date{
+    font-family: monospace;
+}
+
+.timeline{
+    margin: 10px;
+    padding: 10px;
+}
+
+.timeline-item{
+    border: solid black;
+    border-width: 0 0 0 1px;
+}
+
+.date i{
+    position: relative;
+    color: rgb(51, 49, 66);
+    font-size: 20px;
+    left: -32px;
+}
+
+.timeline-content{
+    padding-left: 30px;
+}
+
+.timeline-item-description{
+    padding-left: 30px;
+}
+
+.timeline .timeline-item .card{
+    margin-left: 20px;
+    width: 100%;
+    letter-spacing: 0vh;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#rightmost p{
+    padding-top: 10px;
+}
+
+.below-header > .col-md-4{
+    padding: 10px 20px 10px 20px;
+}
+
+#online-profile{
+
+}
+
+table tr td:first-child{
+    font-weight: bold;
+}
