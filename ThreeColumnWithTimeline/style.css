@@ -123,3 +123,7 @@ tr td:first-child{
 table .progress-bar{
     background-color: #1397AD;
 }
+
+.date{
+    color: #1397AD;
+}
