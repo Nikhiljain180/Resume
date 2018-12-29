@@ -28,13 +28,13 @@ html{
 }
 
 .header{
-    background-color: rgb(51, 49, 66);
-    color: gold;
+    background-color: #1397AD;
+    color: white;
     padding: 0 10% 0 10%;
 }
 
 #call-me-section{
-    padding-left: 50px;
+    padding-left: 80px;
     letter-spacing: 4px;
     font-size: 16px;
 }
@@ -47,12 +47,14 @@ html{
 .top-heading{
     padding-top: 30px;
     width: 100%;
+    color: #1397AD;
     font-weight: bold;
     border: solid;
     border-width: 0 0 1px 0; 
 }
 
 #rightmost{
+    padding-right: 50px;
     background-color: #DDD;
 }
 
@@ -71,13 +73,13 @@ html{
 }
 
 .timeline-item{
-    border: solid black;
-    border-width: 0 0 0 1px;
+    border: dashed gray;
+    border-width: 0 0 0 3px;
 }
 
 .date i{
     position: relative;
-    color: rgb(51, 49, 66);
+    color: #1397AD;
     font-size: 20px;
     left: -32px;
 }
@@ -102,14 +104,22 @@ html{
     padding-top: 10px;
 }
 
-.below-header > .col-md-4{
-    padding: 10px 20px 10px 20px;
+#below-header{
+    padding-left: 50px;
 }
 
-#online-profile{
-
-}
-
-table tr td:first-child{
+tr td:first-child{
     font-weight: bold;
+}
+
+#online-profile .fab{
+    color: #1397AD;
+}
+
+#online-profile .row{
+    padding-top: 20px;
+}
+
+table .progress-bar{
+    background-color: #1397AD;
 }
