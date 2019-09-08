@@ -45,12 +45,11 @@ html{
 }
 
 .top-heading{
-    padding-top: 30px;
     width: 100%;
     color: #1397AD;
     font-weight: bold;
     border: solid;
-    border-width: 0 0 1px 0; 
+    border-width: 0 0 1px 0;
 }
 
 #rightmost{
