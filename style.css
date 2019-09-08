@@ -57,6 +57,9 @@ html{
     padding-right: 50px;
     background-color: #e7eeef;
 }
+#rightmost p{
+    letter-spacing: 2px;
+}
 
 .card{
     display: inline-block;
